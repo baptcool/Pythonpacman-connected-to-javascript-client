@@ -5,10 +5,6 @@ pygame.init()
 
 
 class Text(pygame.sprite.Sprite):
-    """
-    A Text class for pygame. Is a subclass of pygame.sprite.Sprite class and can be used with pygame.sprite.Group or
-    other sprite group classes.
-    """
 
     def __init__(self, text: str, pos=(0, 0), origin='center', color=colors.GREY, font=pygame.font.SysFont(None, 32)):
         """

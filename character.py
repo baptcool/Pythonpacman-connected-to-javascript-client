@@ -4,8 +4,6 @@ import math
 from vector import Vector2D
 from animation import Animation, OneTimeAnimation
 
-# http://www.gamasutra.com/view/feature/3938/the_pacman_dossier.php?print=1
-
 
 class Player(pygame.sprite.Sprite):
     TabinstanceClassD = object()
